@@ -1,0 +1,108 @@
+h1 {
+    font-size: 70px;
+    line-height: 15px;
+    text-align: center;
+}
+
+div {
+    display: block;
+}
+h1, h2 {
+    font-weight: 400;
+    font-family: DauphinPlain;
+}
+h3, h4, h5 {
+    font-weight: 400;
+}
+
+h4 {
+    margin: 10px 10px 5px 10px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    font-style: italic;
+}
+
+h5 {
+    margin: 5px 10px 20px 10px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+}
+
+.banner {height: 90px;
+        margin: 15px auto;
+}
+.inner {
+    width: 960px;
+    margin: 0 auto;
+}
+.languages {margin: 20px 15px 5px 15px;
+    clear: both;
+    text-align: center;}
+
+.outer {text-align: center;}
+
+a:link{
+    color: blue;
+}
+a:visited{
+        color: #000;
+}
+a:hover{
+    color: red;
+}
+
+.languages a {
+    padding: 2px;
+    font-size: 12px;
+    line-height: 15px;}
+
+div.container{
+    margin-top: 1px;
+    height: 265px;
+}
+
+div.containerL{
+    float: left;
+    text-align: left;
+    width: 46.5%;
+    margin-left: 2%;
+}
+
+div.containerR{
+    float: right;
+    text-align: left;
+    width: 46.5%;
+    margin-right: 2%;
+}
+
+p {
+    text-align: justify;
+    margin: 0 0 15px 0;
+}
+
+form {
+    margin-bottom: 10px;
+}
+
+tbody{
+    vertical-align: middle;
+}
+
+input.amount{
+    text-align: center;
+    width: 30px;
+    padding: 3px 5px;
+    border: 1px;
+    border-style: solid;
+    border-color: #666 #ccc #ccc #666;
+}
+
+td {
+    text-align: left;
+}
+
+footer{
+    margin: 200px;
+}
